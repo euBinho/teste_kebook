@@ -1,0 +1,170 @@
+.top_geral{
+    padding-top: 5rem;
+}
+.top_sobre, .top_home, .top_professor,.top_afiliado,.top_termos{
+    background: url(../imgs/back-top-home.png);
+    background-size: cover;
+    background-position: center;
+}
+.sobre_sectionWhite{
+    background: url(../imgs/back-sec-2-instrutor.png);
+    background-size: cover;
+    background-position: center;
+}
+.top_afiliado img {
+    margin-bottom: -6rem;
+}
+.top_geral h2,.top_geral p,.top_geral span,.afiliado_sobre h2,.afiliado_sobre p{
+    color: var(--cor-texto-1);
+}
+.top_home img{
+    margin-bottom: -4rem;
+}
+.top_home h2, .top_home span {
+    font-size: 4rem;
+    font-weight: 400;
+}
+.top_home span {
+    font-weight: 700;
+}
+.top_geral p {
+    font-size: 1.25rem;
+}
+.top_professor img{
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+.glider-slide h3 {
+    font-size: 1.2rem;
+    color: var(--cor-texto-1);
+}
+.glider-slide p {
+    font-size: 0.9rem;
+    color: var(--cor-texto-1);
+}
+.glider-slide svg {
+    width: 1.7rem;
+    height: auto;
+    fill: var(--cor-texto-1);
+}
+.glider-slide img.img-fluid {
+    height: auto !important;
+}
+.glider-slide button {
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    text-align: initial;
+    outline: 0 !important;
+    box-shadow: 0 0 0 !important;
+}
+.afiliados_white img {
+    margin: -5rem auto;
+}
+.teacher_hover{
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    left: calc(.5 * var(--bs-gutter-x));
+    height: 100%;
+    background-image:linear-gradient(to top, var(--cor-1) 25%,transparent);
+    transition: all .5s;
+}
+.glider-slide button:hover .teacher_hover{
+    bottom: 0;
+    transition: all .5s;
+}
+div.glider-contain{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.glider-prev{
+    top: auto;
+    bottom: 45%;
+    background: transparent;
+    left: -5%;
+}
+.glider-next{
+    top: auto;
+    bottom: 45%;
+    background: transparent;
+    right: -1%;
+}
+.glider-prev svg,.glider-next svg{
+    width: 40px;
+    height: auto;
+}
+.glider-slide{
+    border: 0;
+}
+.slide_teacher,.suporte_home,.afiliado_sobre,.vagas_mais{
+    background:  url(../imgs/back-sec-slide.png);
+    background-size: cover;
+    background-position: center;
+}
+.canvas_use input.form-check-input {
+    border: 1px solid var(--cor-geral-texto) !important;
+}
+.slide_teacher h2, .slide_teacher p,.suporte_home h2,.suporte_home p{
+    color: var(--cor-texto-1);
+}
+.slide_teacher img {
+    max-height: 20rem;
+}
+.slide_teacher svg {
+    width: 2rem;
+    height: auto;
+    fill: var(--cor-texto-1);
+}
+.afiliate_section h2 b{
+    font-size: 2.5rem;
+}
+.afiliate_section p,
+.slide_teacher p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.items_home h2{
+    font-size: 1.6rem;
+    margin-top: .9rem;
+    line-height: 1.1;
+}
+.suporte_home p{
+    font-size: 1.1rem;
+}
+.slide_student{
+    background:  url(../imgs/back-sec-5-home.png);
+    background-size: cover;
+    background-position: center;
+}
+.cta_carreiras{
+    background:  url(../imgs/back-top-home.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+    padding-bottom: 10rem;
+}
+.col_ctaCarreiras{
+    padding: 2rem 0;
+    border-radius: 2rem;
+    box-shadow: rgb(0 0 0 / 50%) 0 0 20px -5px;
+    background: var(--cor-texto-1);
+    margin-bottom: -15rem;
+}
+@media (max-width: 575.98px) {
+    .top_home h2, .top_home span{font-size: 3.3rem;}
+    .top_suporte .card{
+        padding: 1.5rem !important;
+    }
+}
+@media (max-width: 991.98px) {
+    .afiliados_white img {margin: 0rem auto;}
+    .top_professor h2 {margin-top: 3rem;}
+    .cta_professor img {margin-bottom: -4rem;margin-top: 1rem;}
+    .card_professor .card-3 h2 {font-size: 2.5rem;}
+}
